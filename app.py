@@ -6,7 +6,7 @@ from diffusers import StableDiffusionPipeline
 import torch
 
 load_dotenv()
-openai.api_key ="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"
+openai.api_key ="OPEN_API_KEY"
 
 #function to generate AI based images using OpenAI Dall-E
 def generate_images_using_openai(text):
